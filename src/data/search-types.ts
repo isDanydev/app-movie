@@ -1,11 +1,4 @@
-export interface Root {
-  page: number;
-  results: Result[];
-  total_pages: number;
-  total_results: number;
-}
-
-export interface Result {
+export default interface Result {
   adult: boolean;
   backdrop_path: string;
   genre_ids: number[];
