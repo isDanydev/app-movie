@@ -9,8 +9,7 @@ export const MovieList = ({
   apiPath: string;
   title: string;
 }) => {
-  //eslint-disable-next-line
-  const pageTitle = useTitle(`${title}`);
+  useTitle(`${title}`);
   {
     /* La data de movies se obtiene de la api usando el hook personalizado useFetch */
   }

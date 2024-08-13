@@ -4,7 +4,7 @@ import imgPageNotFound from "../assets/img/not-found-404.png";
 import { useTitle } from "../hooks/useTitle";
 export const PageNotFound = ({ title }: { title: string }) => {
   //eslint-disable-next-line
-  const pageTitle = useTitle(`${title}`);
+  useTitle(`${title}`);
 
   return (
     <main className=" flex flex-col justify-center">

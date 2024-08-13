@@ -28,8 +28,7 @@ export const MovieDetail = () => {
   const [data, setData] = useState<Movie>({} as Movie);
   const imgPoster = IMAGE_URL + data.poster_path;
 
-  //eslint-disable-next-line
-  const pageTitle = useTitle(`${data.title}`);
+  useTitle(`${data.title}`);
 
   useEffect(() => {
     const fetchMovies = async () => {
