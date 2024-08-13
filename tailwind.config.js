@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        md: "900px", // Cambia el breakpoint 'md' a 900px
+        md: "900px",
+        other: { min: "350px", max: "1200px" },
       },
     },
   },
