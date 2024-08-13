@@ -18,7 +18,7 @@ export const Footer = () => {
               target="_blank"
               className="hover:underline me-4 md:me-6"
             >
-              About
+              Sobre mi
             </Link>
           </li>
           <li>
@@ -27,21 +27,13 @@ export const Footer = () => {
               target="_blank"
               className="hover:underline me-4 md:me-6"
             >
-              Privacy Policy
+              Politicas y privacidad
             </Link>
           </li>
-          <li>
-            <Link
-              to="#"
-              target="_blank"
-              className="hover:underline me-4 md:me-6"
-            >
-              Licensing
-            </Link>
-          </li>
+
           <li>
             <Link to="#" target="_blank" className="hover:underline">
-              Contact
+              Contacto
             </Link>
           </li>
         </ul>
