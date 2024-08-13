@@ -10,7 +10,6 @@ interface Movie {
 
 export const useFetch = (url: string, term: string = "") => {
   const [data, setData] = useState<Movie[]>([]);
-  console.log(term);
 
   useEffect(() => {
     const fetchMovies = async () => {

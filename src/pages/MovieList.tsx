@@ -10,9 +10,6 @@ export const MovieList = ({
   title: string;
 }) => {
   useTitle(`${title}`);
-  {
-    /* La data de movies se obtiene de la api usando el hook personalizado useFetch */
-  }
   const { data: movies } = useFetch(apiPath);
 
   return (

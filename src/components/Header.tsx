@@ -27,7 +27,7 @@ export const Header = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.currentTarget; // Usa e.currentTarget para obtener el formulario.
+    const form = e.currentTarget;
     const searchTerm = (form.elements.namedItem("search") as HTMLInputElement)
       .value;
     form.reset();
