@@ -5,6 +5,7 @@
 
 import { Footer, Header } from "./components";
 import AllRoutes from "./routes/AllRoutes";
+import { API_KEY, API_URL, API_IMG_CARD } from "../env";
 const App = () => {
   // console.log(data);
   // const urlImageTMDB = "https://image.tmdb.org/t/p/w300";
@@ -28,6 +29,11 @@ const App = () => {
     // </div>
     <div>
       <Header />
+      <div>
+        <h2>{API_KEY}</h2>
+        <h2>{API_URL}</h2>
+        <h2>{API_IMG_CARD}</h2>
+      </div>
       <AllRoutes />
       <Footer />
     </div>
